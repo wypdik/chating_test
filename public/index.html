@@ -1,0 +1,26 @@
+<!-- public/index.html -->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Socket.io</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="chat-field">
+      <div class="chat-area">
+        <ul id="messages"></ul>
+      </div>
+      <form class="chat-form" action="">
+        <input id="m" />
+        <button class="disabled">Send</button>
+      </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+  </body>
+</html>
