@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wypdik/chating_test/issues"
   },
-  "homepage": "https://github.com/wypdik/chating_test#readme"
+  "homepage": "https://github.com/wypdik/chating_test#readme",
+  "scripts": {
+    "start": "node app.js"
+  }
 }
